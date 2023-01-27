@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Oswald:wght@300;400;600;700&family=Rowdies:wght@300;400;700&display=swap');
 * {
     margin: 0;
   }
@@ -8,3 +9,35 @@
   body {
     background-color: lightblue;
   }
+
+  .navbar-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+  }
+  
+  .navbar-headerText {
+    font-family: 'Anton', sans-serif;
+    font-style: bold;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    margin-left: 1.2rem;
+  }
+
+  .navbar-subcontainer {
+    display: flex;
+    align-items: center;
+  }
+

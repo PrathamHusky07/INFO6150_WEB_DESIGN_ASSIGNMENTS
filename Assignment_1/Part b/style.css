@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+  }
+  body {
+    background-color: lightyellow;
+    font-family: sans-serif;
+  }
+  .container-header {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(36, 12, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(36, 12, 0, 1) 0%,
+      rgba(66, 121, 138, 0.7525603991596639) 0%,
+      rgba(255, 0, 114, 1) 100%
+    );
+  }
+  .inception-logo {
+    height: 35rem;
+    width: 40rem;
+    border-radius: 7px;
+    margin-right: 45px;
+  }
+
+  .movie-name {
+    font-size: 3rem;
+    font-style: bold;
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    color: darkblue;
+  }
+  .rating-text {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 1rem;
+  }
+
+  .button-book {
+    padding: 1.5rem 2rem;
+    background-color: brown;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .navbar-checkout {
+    padding: 2rem 1rem;
+    background-color: lightblue;
+    color: white;
+  }
+
+  .about {
+    padding: 25px;
+  }
+  .movie-about {
+    font-size: 2rem;
+    font-family: 'Rowdies', cursive;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .movie-about-subtext {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: lightblue;
+    color: black;
+    font-style: italic;
+  }
+
+  .footer {
+    background-color: blue;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-book {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+  }
+  .footer-info {
+    font-size: 2.1rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 1.5rem;
+    font-style: bold;
+  }
+
+  .book-navbar {
+    padding: 2rem 1.5rem;
+    background-color: cyan;
+    color: white;
+  }
+  .book-nav-text {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 750;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkgreen;
+  }
+  .book-header-container {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .book-header-text {
+    font-size: 2rem;
+    background-color: skyblue;
+    color: green;
+    font-style: italic;
+  }
+.book-input-container {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+.book-input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 50vw;
+    border-radius: 20px;
+    margin: 10 auto;
+  }
+
+.input-text {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+    width: 350px;
+    border: 2px solid transparent;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:focus {
+    border-color: skyblue;
+    outline: none;
+  }
+
+.label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
+.label-card {
+    margin-top: 2rem;
+  }
+
+.input-header-text {
+    margin-bottom: 25px;
+    font-size: 2rem;
+  }
+
+.book-ticket-button {
+    margin-top: 1.5rem;
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+  }
+
+

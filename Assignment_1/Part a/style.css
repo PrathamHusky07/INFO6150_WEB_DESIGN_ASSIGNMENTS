@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.signup {
+    height: 10rem;
+    width: 10rem;
+    padding: 6px 20px;
+    border-radius: 8px;
+    background-color: darkcyan;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.signup-input-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .signup-input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: cyan;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+  .input {
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    width: 300px;
+    border: 2px solid transparent;
+  }
+  .input:focus {
+    border-color: lightsalmon;
+    outline: none;
+  }
+
+
+  .label-email {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
+  .label-password {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .signup-input-text {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-style: italic;
+    background-color: skyblue;
+    color: green;
+    
+  }
+
+  .create-account {
+    margin-top: 2rem;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 1rem;
+  }
+
+.table {
+    width: 40vw;
+    margin-top: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    border-spacing: 9px;
+    width: 50%;
+    
+    background-image: url('Images/bg.png');
+  }
+
+  .menu-header {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .table-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+  }
+
+  .tatte-coffee {
+    border-radius: 100px;
+    margin-right: 10px;
+  }
+
+  .table-subtext {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .table-header {
+    font-family: 'Rowdies', cursive;
+    font-size: 1.2em;
+  }
+
+  .view-website {
+    color: #006339;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Rowdies', cursive;
+    font-size: 1.2em;
+  }

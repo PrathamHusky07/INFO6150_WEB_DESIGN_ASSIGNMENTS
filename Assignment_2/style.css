@@ -10,22 +10,22 @@
     background-color: skyblue;
   }
 
-  .navbar-container {
+.navbar-container {
     padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-  }
+}
   
-  .navbar-headerText {
+.navbar-headerText {
     font-family: 'Anton', sans-serif;
     font-style: bold;
     font-size: 4rem;
     color: white;
-  }
+ }
 
-  .navbar-link {
+.navbar-link {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     color: #fff;
@@ -34,14 +34,14 @@
     transition: all 0.3s ease;
     border-radius: 12px;
     margin-left: 1.2rem;
-  }
+}
 
-  .navbar-subcontainer {
+.navbar-subcontainer {
     display: flex;
     align-items: center;
-  }
+}
 
-  .about-container2 {
+.about-container2 {
     background-color: rgb(44, 24, 220);
     width: 80vw;
     height: 35vh;
@@ -57,8 +57,8 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
-  }
-  .first-bubble {
+}
+.first-bubble {
     position: absolute;
     width: 9rem;
     height: 9rem;
@@ -66,8 +66,8 @@
     left: -4rem;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.793);
-  }
-  .second-bubble {
+}
+.second-bubble {
     position: absolute;
     width: 9rem;
     height: 9rem;
@@ -75,55 +75,90 @@
     right: -4rem;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.793);
-  }
+}
 
-  .mainexperience-container {
+.mainexperience-container {
     padding: 1.1rem;
     color: #fff;
     font-family: 'Rowdies', cursive;
     margin-bottom: 3rem;
-  }
+}
 
-  .mainexperience-container h1 {
+.mainexperience-container h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
     text-decoration: underline;
-  }
+}
 
-  .experience-subcontainer {
+.experience-subcontainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
-  }
+}
 
-  .experience-subcontainer2{
+.experience-subcontainer2{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
-  }
+}
 
-  .experience-subcontainer3 {
+.experience-subcontainer3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
-  }
+ }
 
-  .experience-info-container {
+.experience-info-container {
     display: flex;
     flex-direction: column;
     flex: 0.4;
     padding: 2rem;
     border-radius: 30px;
-    background-color: #2a2d3a;
-  }
-  .experience-info-container a {
+    background-color: #d55339;
+ }
+
+.experience-info-container a {
     text-decoration: none;
-    color: #da18a3;
+    color: #d55339;
 
 }
+
+.mycertification-container {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.mycertification-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+    text-decoration: underline;
+  }
+
+.mycertificates-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    overflow: scroll;
+    gap: 3rem;
+}
+
+.mycertificates-container img {
+    width: 62%;
+    height: 62%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.mycertificates-container img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
 
 #myDisplayBar{
     width: 50vw;
@@ -141,5 +176,7 @@
 .skillInfo{
     position: absolute;
     left: 10vw;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-style: bold;
+    font-size: 1rem;
 }

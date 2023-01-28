@@ -52,7 +52,7 @@
 }
 
 .about-container2 {
-    background-color: rgb(44, 24, 220);
+    background-color: rgb(17, 55, 205);
     width: 80vw;
     height: 35vh;
     margin: 4rem auto;
@@ -70,8 +70,8 @@
 }
 .first-bubble {
     position: absolute;
-    width: 9rem;
-    height: 9rem;
+    width: 8.5rem;
+    height: 8.5rem;
     top: -2.25rem;
     left: -4rem;
     border-radius: 50%;
@@ -79,8 +79,8 @@
 }
 .second-bubble {
     position: absolute;
-    width: 9rem;
-    height: 9rem;
+    width: 8.5rem;
+    height: 8.5rem;
     bottom: -2.25rem;
     right: -4rem;
     border-radius: 50%;
@@ -105,6 +105,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
+    color: black;
 }
 
 .experience-subcontainer2{
@@ -112,6 +113,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
+    color: black;
 }
 
 .experience-subcontainer3 {
@@ -119,6 +121,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
+    color: black;
  }
 
 .experience-info-container {
@@ -243,7 +246,7 @@
     font-family: 'Merriweather', serif;
     font-style: bold;
     font-size: 1.1rem;
-    color: white;
+    color: black;
 }
 
 .footer-container {

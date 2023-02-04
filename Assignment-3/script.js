@@ -3,8 +3,7 @@ function Title(t1)
 { this.mytitle = t1;
 }
 
-Title.prototype.getName = function () 
-{ 
+Title.prototype.getName = function () { 
 return (this.mytitle);
 }
 
@@ -16,3 +15,7 @@ var socialMedia = {
 };
 
 var t = new Title("CONNECT WITH ME!");
+
+var table = document.getElementById("myTable");
+var addNew = document.getElementById("add");
+var count = table.rows.length;

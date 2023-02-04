@@ -90,4 +90,65 @@ function check() {
 
 check()
 
+function showBottom(i) {
+  if (table.rows[i + 1].style.display == "none") {
+    table.rows[i + 1].style.display = "";
+    table.rows[i].cells[0].children[3].style.transform = "rotate(180deg)";
+  } else {
+    table.rows[i + 1].style.display = "none";
+    table.rows[i].cells[0].children[3].style.transform = "rotate(0deg)";
+  }
+}
+
+for (let i = 1; i < table.rows.length; i += 2) {
+  table.rows[i].cells[0].children[0].addEventListener("click", check);
+  table.rows[i].cells[0].children[3].addEventListener("click", () => {
+    showBottom(i);
+  });
+  table.rows[i].cells[8].addEventListener("click", () => {
+    table.rows[i].remove();
+    table.rows[i].remove();
+    check();
+    alert("Student record deleted successfully");
+  });
+  table.rows[i].cells[9].addEventListener("click", () => {
+    prompt("Edit Details");
+  });
+}
+
+addNew.addEventListener("click", () => {
+  table.innerHTML += `
+      <tr>
+        <td>
+          <input type="checkbox" /><br /><br /><img
+            src="down.png"
+            width="25px"
+          />
+        </td>
+        <td>Student ${Math.floor(++count / 2)}</td>
+        <td>Teacher ${Math.floor(count++ / 2)}</td>
+        <td>Approved</td>
+        <td>Fall</td>
+        <td>TA</td>
+        <td>${Math.floor(Math.random() * 90000) + 10000}</td>
+        <td>100%</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="display:none" class="dropDownTextArea">
+        <td colspan="8">
+          Advisor:<br /><br />
+          Award Details<br />
+          Summer 1-2014(TA)<br />
+          Budget Number: <br />
+          Tuition Number: <br />
+          Comments:<br /><br /><br />
+          Award Status:<br /><br /><br />
+        </td>
+      </tr>
+  `;
+  check();
+  addEventListeners();
+  alert("New student added successfully");
+});
 

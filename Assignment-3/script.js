@@ -41,6 +41,7 @@ function addEventListeners() {
       table.rows[i].remove();
       table.rows[i].remove();
       check();
+      alert("Student record deleted successfully");
     });
     table.rows[i].cells[9].addEventListener("click", () => {
       prompt("Edit Details");

@@ -47,3 +47,47 @@ function addEventListeners() {
     });
   }
 }
+
+initialize()
+
+function check() {
+  var count = 0;
+  for (let i = 1; i < table.rows.length; i += 2) {
+    if (table.rows[i].cells[0].children[0].checked) {
+      table.rows[i].style.backgroundColor = "yellow";
+      table.rows[i].cells[8].innerHTML = "<button>Delete</button>";
+      table.rows[i].cells[9].innerHTML = "<button>Edit</button>";
+      count++;
+    } else {
+      table.rows[i].style.backgroundColor = "#fff";
+      table.rows[i].cells[8].innerHTML = "";
+      table.rows[i].cells[9].innerHTML = "";
+    }
+  }
+
+  if (count > 0) {
+    document.getElementById("button").disabled = false;
+    document.getElementById("button").style.backgroundColor = "orange";
+    document.getElementById("button").style.borderColor = "orange";
+    for (var i = 0; i < table.rows.length; i++) {
+      for (var j = 0; j < table.rows[i].cells.length; j++) {
+        table.rows[i].cells[j].style.display = "";
+        if (j == 8) table.rows[i].cells[j].style.display = "";
+      }
+    }
+  } else {
+    document.getElementById("button").disabled = true;
+    document.getElementById("button").style.backgroundColor = "gray";
+    document.getElementById("button").style.borderColor = "transparent";
+    for (var i = 0; i < table.rows.length; i++) {
+      for (var j = 0; j < table.rows[i].cells.length; j++) {
+        table.rows[i].cells[j].style.display = "";
+        if (j == 8 || j == 9) table.rows[i].cells[j].style.display = "none";
+      }
+    }
+  }
+}
+
+check()
+
+

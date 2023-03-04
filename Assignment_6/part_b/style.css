@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue;
+    color: #ffffff;
+  }
+  .timerBtn {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    width: 12rem;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+  }
+  #timeDisplay {
+    font-size:180px;
+    color: white;
+    margin-top: 6rem;
+  }
+  #timeContainer {
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  #stopwatch {
+    color:darkred;
+    font-size: 70px;
+    margin: 6rem;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+  }
+  
